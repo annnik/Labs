@@ -10,14 +10,12 @@
 	<h3>Текущее состояние таблицы</h3>
 
 	<h4>Введите ФИО</h4>
-	<form method="post">
-		name <input type="text" name="name_input" value="name" size="250" /><br>
-		<input type="submit" value="Send" name="send_button" />
-	</form>
-	<%
-		if (request.getParameter("name_input") != null) {
-			insertCustomer("1",name_input);
-		}
-	%>
+	<form:form method="post" modelAttribute="userForm" action="${userActionUrl}">
+		name        <form:input type="text" name="name_input"  size="250" /><br>
+		<form:input type="submit" value="Send" name="send_button" />
+	</form:form>
+
+	
+	
 </body>
 </html>

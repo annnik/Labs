@@ -28,5 +28,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.datatools.connectivity.jdt.DRIVERLIBRARY/Other Driver Default"/>
+	<classpathentry kind="con" path="org.eclipse.ajdt.core.ASPECTJRT_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/java workspace/ProjectManagersLab/spring-web.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
