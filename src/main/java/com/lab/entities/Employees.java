@@ -26,14 +26,18 @@ public class Employees {
 
 		}
 
-		public Employees(String name, String job, List <Projects>projects) {
+		/*public Employees(String name, String job, List <Projects>projects) {
 			super();
-			
+			//ну ты поняла нет :(
+			// выпили все конструкторы с параметрами и будет тебе счастье
+			//то есть как вот этот. да, как я для Customers сделал
+			 *то же самое, что эклипс вызывает при старте, да но тут пока что то нет ошибок
+			лол, он мейн не нашел?
 			this.job = job;
 			this.name = name;
 			this.projects=projects;
 		}
-
+*/
 		public List<Projects> getProjects() {
 			return projects;
 		}

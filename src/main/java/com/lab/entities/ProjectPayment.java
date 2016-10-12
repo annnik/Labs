@@ -23,13 +23,13 @@ public class ProjectPayment {
 	public ProjectPayment() {
 
 	}
-
+/*
 	public ProjectPayment(long date, int sum, Projects Projects_id) {
 		super();
 		this.date = date;
 		this.sum = sum;
 		this.Projects_id = Projects_id;
-	}
+	}*/
 
 	
 	public long getDate() {

@@ -14,7 +14,7 @@ public class Customers {
 
 		}
 
-		public Customers(String name) {
+	public Customers(String name) {
 			super();
 			this.name = name;
 		}
@@ -26,6 +26,10 @@ public class Customers {
 
 		public void setName(String name) {
 			this.name = name;
+		}
+		public int getId(){
+			return Customers_id;
+			
 		}
 
 		

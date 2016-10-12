@@ -21,7 +21,7 @@ public class ProjectManagers {
 		public ProjectManagers() {
 
 		}
-
+/*
 		public ProjectManagers(String name, String department, int salary) {
 			super();
 			
@@ -29,7 +29,7 @@ public class ProjectManagers {
 			this.name = name;
 			this.salary = salary;
 		}
-
+*/
 		
 		public String getName() {
 			return name;

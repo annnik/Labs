@@ -23,7 +23,7 @@ public class Projects {
 
 		}
 
-		public Projects(String name, Customers  Customers_id, ProjectManagers Project_managers_id) {
+		/*public Projects(String name, Customers  Customers_id, ProjectManagers Project_managers_id) {
 			super();
 			
 			this.Customers_id = Customers_id;
@@ -31,7 +31,7 @@ public class Projects {
 			this.Project_managers_id = Project_managers_id;
 		}
 
-		
+		*/
 		public Customers getCustomers_id() {
 			return Customers_id;
 		}
